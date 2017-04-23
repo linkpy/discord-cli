@@ -1,0 +1,17 @@
+preinit( app ) :
+	Called before the creation of the login screen.
+
+login-screen( app, login screen instance ) :
+	Called when the login screen is created and setup.
+
+logged( app, discord client ) :
+	Called when the login screen confirms the login (client not ready).
+
+client-ready( app, discord client ) :
+	Called when the discord client is ready.
+
+populate-guilds-list( app, guilds list instance ) :
+	Called when populating the guild list.
+
+populate-channels-list( app, channels list instance ) :
+	Called when populating the channel list.
